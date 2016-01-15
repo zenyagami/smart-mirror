@@ -48,7 +48,7 @@ app.on('ready', function() {
   mainWindow = new BrowserWindow(browserWindowOptions);
 
   // and load the index.html of the app.
-  mainWindow.loadUrl('file://' + __dirname + '/index.html');
+  mainWindow.loadUrl('file://' + __dirname + '/www/index.html');
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
